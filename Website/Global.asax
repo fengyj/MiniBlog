@@ -2,6 +2,11 @@
 
 <script RunAt="server">
 
+    public override void Init()
+    {
+        base.Init();
+    }
+    
     public override string GetVaryByCustomString(HttpContext context, string arg)
     {
         if (arg == "authenticated")
