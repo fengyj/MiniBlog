@@ -4,13 +4,32 @@
   <slug>test-1</slug>
   <author></author>
   <pubDate>2014-06-02 09:58:00</pubDate>
-  <lastModified>2014-06-02 09:58:21</lastModified>
+  <lastModified>2015-02-10 06:26:14</lastModified>
   <excerpt>this is a test</excerpt>
-  <content>&lt;p&gt;Testing the excerpt from WLW&lt;/p&gt;</content>
+  <content>&lt;p&gt;Testing the excerpt from WLW&lt;/p&gt;&lt;p&gt;ccc&lt;/p&gt;</content>
   <ispublished>true</ispublished>
   <categories>
     <category>Best Practices</category>
     <category>WLW</category>
   </categories>
-  <comments></comments>
+  <comments>
+    <comment isAdmin="false" isApproved="true" id="4dcd70dd-ea94-4f44-9c0b-96996cffc005">
+      <author>cc</author>
+      <email>cc@cc.cc</email>
+      <website></website>
+      <ip>::1</ip>
+      <userAgent>Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; Touch; rv:11.0) like Gecko</userAgent>
+      <date>2015-02-06 02:31:55</date>
+      <content>dfdfd</content>
+    </comment>
+    <comment isAdmin="true" isApproved="false" id="362cdd6f-fba0-402b-8175-b7d33bb69b9e">
+      <author>cc</author>
+      <email>cc@cc.cc</email>
+      <website></website>
+      <ip>::1</ip>
+      <userAgent>Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; Touch; rv:11.0) like Gecko</userAgent>
+      <date>2015-02-10 06:26:07</date>
+      <content>cccc</content>
+    </comment>
+  </comments>
 </post>

@@ -178,6 +178,15 @@ public static class Blog
         return VirtualPathUtility.ToAbsolute(relative);
     }
 
+    /// <summary>
+    /// 
+    /// </summary>
+    /// <param name="rootRelativePath"></param>
+    /// <param name="cdnPath"></param>
+    /// <returns></returns>
+    /// <remarks>
+    /// <see cref="http://madskristensen.net/post/cache-busting-in-aspnet">Cache busting in ASP.NET</see>
+    /// </remarks>
     public static string FingerPrint(string rootRelativePath, string cdnPath = "")
     {
         if ( HttpContext.Current.Request.IsLocal && String.IsNullOrWhiteSpace( Blog.BlogPath ) )
